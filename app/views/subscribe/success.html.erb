@@ -1,18 +1,33 @@
+<style>
+    main {
+        position: relative;
+        background-color: #135ca0;
+        height: 100vh;
+        width: 100%;
+    }
+    .vertical-center {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .full-height {
+        height: 100%;
+    }
+</style>
 <main>
-    <div class="container full-height position-relative">
-        <div class="row vertical-center">
-            <div class="col-6 offset-3">
+    <div class="full-height position-relative">
+        <div class="vertical-center">
+            <div class="col-md-6 offset-md-3">
                 <!-- Card -->
-                <div class="card card-image mb-3" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+                <div class="card card-image mb-3" style="background-image: url('http://youburger.com.br/images/lojas/jundiai/jundiai.jpeg'); background-size: cover; background-position: center;">
                     <!-- Content -->
-                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-3 px-4">
                         <div>
-                            <h5 class="pink-text"><i class="fa fa-pie-chart"></i> Marketing</h5>
-                            <h3 class="card-title pt-2"><strong>This is card title</strong></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                                Odit sed qui, dolorum!.</p>
-                            <a class="btn btn-pink"><i class="fa fa-clone left"></i> View project</a>
+                            <img src="/assets/images/logo-youburger.png" class="img-fluid mb-5" style="max-width: 60%;"></img>
+                            <h3 class="my-2">Número <span class="font-weight-bold">do cupom:</span><br/>
+                            <span class="font-weight-bold">42014201420</span></h3>
+                            <h5 class="white-text mt-4 mb-2"> Obrigado por participar<br/>
+                            <span class="font-weight-bold">da nossa promoção.</span></h5>
                         </div>
                     </div>  
                 </div>
